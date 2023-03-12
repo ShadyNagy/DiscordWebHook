@@ -1,13 +1,15 @@
-﻿using System.Text.Json.Serialization;
+﻿
+using Newtonsoft.Json;
 
-namespace DiscordWebHook.Models;
-
-public class EmbedField
+namespace DiscordWebHook.Models
 {
-	[JsonPropertyName("name")]
-	public string? Name { get; set; }
-	[JsonPropertyName("value")]
-	public string? Value { get; set; }
-	[JsonPropertyName("inline")]
-	public bool Inline { get; set; }
+	public class EmbedField
+	{
+		[JsonProperty("name")]
+		public string Name { get; set; }
+		[JsonProperty("value")]
+		public string Value { get; set; }
+		[JsonProperty("inline")]
+		public bool Inline { get; set; }
+	}
 }

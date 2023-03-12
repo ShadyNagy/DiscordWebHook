@@ -1,9 +1,10 @@
 ﻿using DiscordWebHook.Interfaces;
 
-namespace DiscordWebHook.Models;
-
-public class EmbedThumbnail : EmbedProxyUrl, IEmbedDimension
+namespace DiscordWebHook.Models
 {
-	public int Height { get; set; }
-	public int Width { get; set; }
+	public class EmbedThumbnail : EmbedProxyUrl, IEmbedDimension
+	{
+		public int Height { get; set; }
+		public int Width { get; set; }
+	}
 }

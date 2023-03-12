@@ -1,8 +1,9 @@
 ﻿using DiscordWebHook.Interfaces;
 
-namespace DiscordWebHook.Models;
-
-public abstract class EmbedProxyUrl : EmbedUrl, IEmbedProxyUrl
+namespace DiscordWebHook.Models
 {
-	public string? ProxyUrl { get; set; }
+	public abstract class EmbedProxyUrl : EmbedUrl, IEmbedProxyUrl
+	{
+		public string ProxyUrl { get; set; }
+	}
 }

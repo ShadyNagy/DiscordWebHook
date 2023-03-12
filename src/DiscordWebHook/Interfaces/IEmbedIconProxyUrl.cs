@@ -1,9 +1,10 @@
-﻿using System.Text.Json.Serialization;
+﻿using Newtonsoft.Json;
 
-namespace DiscordWebHook.Interfaces;
-
-public interface IEmbedIconProxyUrl
+namespace DiscordWebHook.Interfaces
 {
-	[JsonPropertyName("proxy_icon_url")]
-	string? ProxyIconUrl { get; set; }
+	public interface IEmbedIconProxyUrl
+	{
+		[JsonProperty("proxy_icon_url")]
+		string ProxyIconUrl { get; set; }
+	}
 }

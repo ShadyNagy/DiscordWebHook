@@ -1,8 +1,9 @@
 ﻿using DiscordWebHook.Interfaces;
 
-namespace DiscordWebHook.Models;
-
-public abstract class EmbedUrl : IEmbedUrl
+namespace DiscordWebHook.Models
 {
-	public string? Url { get; set; }
+	public abstract class EmbedUrl : IEmbedUrl
+	{
+		public string Url { get; set; }
+	}
 }

@@ -1,9 +1,10 @@
-﻿using System.Text.Json.Serialization;
+﻿using Newtonsoft.Json;
 
-namespace DiscordWebHook.Interfaces;
-
-public interface IEmbedUrl
+namespace DiscordWebHook.Interfaces
 {
-	[JsonPropertyName("url")]
-	string? Url { get; set; }
+	public interface IEmbedUrl
+	{
+		[JsonProperty("url")]
+		string Url { get; set; }
+	}
 }

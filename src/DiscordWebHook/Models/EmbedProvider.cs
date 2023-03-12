@@ -1,9 +1,10 @@
-﻿using System.Text.Json.Serialization;
+﻿using Newtonsoft.Json;
 
-namespace DiscordWebHook.Models;
-
-public class EmbedProvider : EmbedUrl
+namespace DiscordWebHook.Models
 {
-	[JsonPropertyName("name")]
-	public string? Name { get; set; }
+	public class EmbedProvider : EmbedUrl
+	{
+		[JsonProperty("name")]
+		public string Name { get; set; }
+	}
 }

@@ -1,11 +1,12 @@
-﻿using System.Text.Json.Serialization;
+﻿using Newtonsoft.Json;
 
-namespace DiscordWebHook.Interfaces;
-
-public interface IEmbedDimension
+namespace DiscordWebHook.Interfaces
 {
-	[JsonPropertyName("height")]
-	int Height { get; set; }
-	[JsonPropertyName("width")]
-	int Width { get; set; }
+	public interface IEmbedDimension
+	{
+		[JsonProperty("height")]
+		int Height { get; set; }
+		[JsonProperty("width")]
+		int Width { get; set; }
+	}
 }

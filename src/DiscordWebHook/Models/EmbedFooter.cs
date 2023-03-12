@@ -1,12 +1,13 @@
 ﻿using DiscordWebHook.Interfaces;
-using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
-namespace DiscordWebHook.Models;
-
-public class EmbedFooter : IEmbedIconUrl, IEmbedIconProxyUrl
+namespace DiscordWebHook.Models
 {
-	[JsonPropertyName("text")]
-	public string? Text { get; set; }
-	public string? IconUrl { get; set; }
-	public string? ProxyIconUrl { get; set; }
+	public class EmbedFooter : IEmbedIconUrl, IEmbedIconProxyUrl
+	{
+		[JsonProperty("text")]
+		public string Text { get; set; }
+		public string IconUrl { get; set; }
+		public string ProxyIconUrl { get; set; }
+	}
 }
