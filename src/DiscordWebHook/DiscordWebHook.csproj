@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net60</TargetFrameworks>
-    <PackageId>DiscordWebHook</PackageId>
+    <PackageId>DiscordWebHookMessage</PackageId>
     <Title>DiscordWebHook</Title>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Shady Nagy</Authors>
@@ -13,7 +13,7 @@
     <RepositoryUrl>https://github.com/ShadyNagy/DiscordWebHook</RepositoryUrl>
     <PackageTags>WenHook,Discord</PackageTags>
     <PackageIcon>icon.png</PackageIcon>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageReleaseNotes>Start</PackageReleaseNotes>
     <AssemblyName>DiscordWebHook</AssemblyName>
     <Features>strict</Features>
