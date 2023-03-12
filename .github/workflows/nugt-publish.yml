@@ -22,7 +22,7 @@ jobs:
       
       # Publish
       - name: Package
-        run: dotnet pack DiscordWebHook\\DiscordWebHook.csproj -c Release
+        run: dotnet pack src\\DiscordWebHook\\DiscordWebHook.csproj -c Release
       - name: Publish
         run: dotnet nuget push *.nupkg -k ${{ secrets.NUGET_KEY }} -s https://api.nuget.org/v3/index.json
       # Publish
