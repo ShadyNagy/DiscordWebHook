@@ -11,7 +11,7 @@ jobs:
     name: Build and Publish
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.5.5
 
       # Required for a specific dotnet version that doesn't come with ubuntu-latest / windows-latest
       # Visit bit.ly/2synnZl to see the list of SDKs that are pre-installed with ubuntu-latest / windows-latest
@@ -22,7 +22,7 @@ jobs:
       
       # Publish
       - name: publish on version change
-        uses: rohith/publish-nuget@v2
+        uses: brandedoutcast/publish-nuget@v2
         with:
           PROJECT_FILE_PATH: src/DiscordWebHook/DiscordWebHook.csproj # Relative to repository root
           #VERSION_FILE_PATH: Directory.Build.props # Filepath with version info, relative to repository root. Defaults to project file
