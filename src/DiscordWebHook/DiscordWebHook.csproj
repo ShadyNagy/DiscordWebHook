@@ -2,24 +2,6 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net60</TargetFrameworks>
-    <PackageId>DiscordWebHookMessage</PackageId>
-    <Title>DiscordWebHook</Title>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Shady Nagy</Authors>
-    <Company>ShadyNagy.com</Company>
-    <PackageProjectUrl>https://github.com/ShadyNagy/DiscordWebHook</PackageProjectUrl>
-    <Description>Discord WenHook helper.</Description>
-    <Summary>Discord WenHook helper.</Summary>
-    <RepositoryUrl>https://github.com/ShadyNagy/DiscordWebHook</RepositoryUrl>
-    <PackageTags>WenHook,Discord</PackageTags>
-    <PackageIcon>icon.png</PackageIcon>
-    <Version>1.0.16</Version>
-    <PackageReleaseNotes>Start</PackageReleaseNotes>
-    <AssemblyName>DiscordWebHook</AssemblyName>
-    <Features>strict</Features>
-    <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <Copyright>Copyright 2019 - 2023 (c) Shady Nagy. All rights reserved.</Copyright>
   </PropertyGroup>
 
   <ItemGroup>
