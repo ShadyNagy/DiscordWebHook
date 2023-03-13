@@ -15,13 +15,14 @@ jobs:
 
       # Required for a specific dotnet version that doesn't come with ubuntu-latest / windows-latest
       # Visit bit.ly/2synnZl to see the list of SDKs that are pre-installed with ubuntu-latest / windows-latest
-      - uses: nuget/setup-nuget@v1
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v1
         with:
-          nuget-version: '6.x'
+          dotnet-version: '7.0.x'
       
       # Publish
-      - name: Create the package
-        run: nuget pack DiscordWebHookMessage.nuspec
+      - name: Create the package the template
+        run: dotnet pack -c Release -o . src/DiscordWebHook/DiscordWebHook.csproj
         
       - name: Publish to nuget.org
         run: nuget push DiscordWebHookMessage.*.nupkg -src https://api.nuget.org/v3/index.json ${{secrets.NUGET_API_KEY}}
