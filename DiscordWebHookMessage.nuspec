@@ -3,14 +3,14 @@
   <metadata>
     <id>DiscordWebHookMessage</id>
     <title>Discord WebHook</title>
-    <version>1.1.8</version>
+    <version>1.1.9</version>
     <authors>Shady Nagy</authors>
     <description>
 			Discord WebHook helper.
 		</description>
-	  <packageTypes>
+	  <!--<packageTypes>
 		  <packageType name="Dependency" />
-	  </packageTypes>
+	  </packageTypes>-->
     <language>en-US</language>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/ShadyNagy/DiscordWebHook</projectUrl>
