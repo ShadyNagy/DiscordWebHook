@@ -22,7 +22,7 @@ jobs:
       
       # Publish
       - name: Package the template
-        run: nuget pack DiscordWebHookMessage.nuspec -NoDefaultExcludes
+        run: nuget pack DiscordWebHookMessage.nuspec -Properties Configuration=Release
         
       - name: Publish to nuget.org
         run: nuget push DiscordWebHookMessage.*.nupkg -src https://api.nuget.org/v3/index.json ${{secrets.NUGET_API_KEY}}

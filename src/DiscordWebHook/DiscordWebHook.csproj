@@ -2,7 +2,8 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net60</TargetFrameworks>
-  </PropertyGroup>
+	  <BuildPackage>true</BuildPackage>
+	</PropertyGroup>
 
   <ItemGroup>
     <None Include="../../icon.png" Pack="true" Visible="false" PackagePath="" />
