@@ -21,7 +21,7 @@ jobs:
           dotnet-version: '7.0.x'
       
       # Publish
-      - name: Create the package the template
+      - name: Create the package
         run: dotnet pack -c Release -o . src/DiscordWebHook/DiscordWebHook.csproj
         
       - name: Publish to nuget.org
