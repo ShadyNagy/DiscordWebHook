@@ -3,7 +3,7 @@
   <metadata>
     <id>DiscordWebHookMessage</id>
     <title>Discord WebHook</title>
-    <version>1.0.25</version>
+    <version>1.0.26</version>
     <authors>Shady Nagy</authors>
     <description>
 			Discord WebHook helper.
