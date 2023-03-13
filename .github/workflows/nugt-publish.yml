@@ -17,7 +17,7 @@ jobs:
       # Visit bit.ly/2synnZl to see the list of SDKs that are pre-installed with ubuntu-latest / windows-latest
       - uses: nuget/setup-nuget@v1
         with:
-          nuget-version: '7.0.x'
+          nuget-version: '7.x'
       
       # Publish
       - name: Create the package
