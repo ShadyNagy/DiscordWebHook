@@ -9,10 +9,10 @@
 
 # Discord WebHook
 
-### Get Packages
+## Get Packages
 You can get Autofac by grabbing [the latest NuGet package](https://www.nuget.org/packages/DiscordWebHookMessage). 
 
-### Get Started
+## Get Started
 Load the DI in Program.cs or Startup.cs
 ```csharp
 services.AddDiscordServices();
