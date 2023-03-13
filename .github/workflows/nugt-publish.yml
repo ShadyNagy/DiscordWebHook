@@ -21,7 +21,7 @@ jobs:
       
       # Publish
       - name: Create the package
-        run: dotnet pack DiscordWebHookMessage.nuspec -NoDefaultExcludes
+        run: dotnet pack DiscordWebHookMessage.nuspec
         
       - name: Publish to nuget.org
         run: nuget push DiscordWebHookMessage.*.nupkg -src https://api.nuget.org/v3/index.json ${{secrets.NUGET_API_KEY}}
