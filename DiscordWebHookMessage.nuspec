@@ -3,7 +3,7 @@
   <metadata>
     <id>DiscordWebHookMessage</id>
     <title>Discord WebHook</title>
-    <version>1.1.11</version>
+    <version>1.1.12</version>
     <authors>Shady Nagy</authors>
     <description>
 			Discord WebHook helper.
@@ -22,11 +22,10 @@
   
 </metadata>
   <files>
-	  <file src="bin\Release\netstandard2.0\DiscordWebHook.dll" target="lib\netstandard2.0" />
-	  <file src="bin\Release\netstandard2.1\DiscordWebHook.dll" target="lib\netstandard2.1" />
-	  <file src="bin\Release\net50\DiscordWebHook.dll" target="lib\net50" />
-	  <file src="bin\Release\net60\DiscordWebHook.dll" target="lib\net60" />
-	  <file src="bin\Release\net70\DiscordWebHook.dll" target="lib\net70" />
+	  <file src="src\DiscordWebHook\bin\Release\netstandard2.1\DiscordWebHook.dll" target="lib\netstandard2.1" />
+	  <file src="src\DiscordWebHook\bin\Release\net50\DiscordWebHook.dll" target="lib\net50" />
+	  <file src="src\DiscordWebHook\bin\Release\net60\DiscordWebHook.dll" target="lib\net60" />
+	  <file src="src\DiscordWebHook\bin\Release\net70\DiscordWebHook.dll" target="lib\net70" />
 		<file src="icon.png" />
     <file src="README.md" />
   </files>
