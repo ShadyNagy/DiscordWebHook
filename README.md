@@ -26,7 +26,7 @@ public SomeService(IDiscordWebhookService discordWebhookService)
   _discordWebhookService = discordWebhookService;
 }
 
-public void SendDiscordWebHook() 
+public async Task SendDiscordWebHook() 
 {
   _ = await _discordWebhookService.SendAsync(DISCORD_WEBHOOK_LINK, "Message");
 }
