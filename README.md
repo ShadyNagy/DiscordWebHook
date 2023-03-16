@@ -2,9 +2,7 @@
 [![DiscordWebHookMessage on NuGet](https://img.shields.io/nuget/v/DiscordWebHookMessage?label=DiscordWebHookMessage)](https://www.nuget.org/packages/DiscordWebHookMessage/)
 [![NuGet](https://img.shields.io/nuget/dt/DiscordWebHookMessage)](https://www.nuget.org/packages/DiscordWebHookMessage)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ShadyNagy/DiscordWebHook/blob/main/LICENSE)
-    <a href="https://www.paypal.me/shadynagy" alt="paypal">
-        <img src="https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal" />
-    </a>
+[![paypal](https://img.shields.io/badge/PayPal-tip%20me-green.svg?logo=paypal)](https://www.paypal.me/shadynagy)
 
 # Discord WebHook
 
