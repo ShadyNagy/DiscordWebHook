@@ -12,12 +12,6 @@ namespace DiscordWebHook.Services
 	public class DiscordWebhookService : IDiscordWebhookService
 	{
 		private readonly HttpClient _httpClient = new HttpClient();
-		private readonly IAppLogger<DiscordWebhookService> _logger;
-
-		public DiscordWebhookService(IAppLogger<DiscordWebhookService> logger)
-		{
-			_logger = logger;
-		}
 
 		public Task<bool> SendAsync(ulong id, string token, string contentBody, string username = null, string avatarUrl = null, bool isTTS = false, IEnumerable<Embed> embeds = null)
 		{
