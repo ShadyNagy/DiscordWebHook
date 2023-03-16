@@ -10,4 +10,3 @@ namespace DiscordWebHook.Interfaces
     Task<bool> SendAsync(string webhookUrl, string contentBody, string username = null, string avatarUrl = null, bool isTTS = false, IEnumerable<Embed> embeds = null);
   }
 }
-
