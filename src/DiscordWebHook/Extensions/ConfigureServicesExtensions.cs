@@ -13,5 +13,13 @@ namespace DiscordWebHook.Extensions
 
 			return services;
 		}
+
+		public static IServiceCollection AddSingletonDiscordServices(this IServiceCollection services)
+		{
+			services
+				.AddSingleton<IDiscordWebhookService, DiscordWebhookService>();
+
+			return services;
+		}
 	}
 }

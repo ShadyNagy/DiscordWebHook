@@ -3,7 +3,7 @@
   <metadata>
     <id>DiscordWebHookMessage</id>
     <title>Discord WebHook</title>
-    <version>1.2.8</version>
+    <version>1.2.9</version>
     <authors>Shady Nagy</authors>
     <description>
 			Discord WebHook helper.
@@ -17,7 +17,7 @@
     <releaseNotes>Start</releaseNotes>
 	  <tags>WebHook,Discord,DiscordWebHook</tags>
     <icon>icon.png</icon>
-    <copyright>Copyright 2019 - 2023 (c) Shady Nagy. All rights reserved.</copyright>
+    <copyright>Copyright 2019 - 2025 (c) Shady Nagy. All rights reserved.</copyright>
 	  <readme>README.md</readme>
   
 </metadata>
@@ -26,8 +26,9 @@
 	  <file src="src\DiscordWebHook\bin\Release\net50\DiscordWebHook.dll" target="lib\net50" />
 	  <file src="src\DiscordWebHook\bin\Release\net60\DiscordWebHook.dll" target="lib\net60" />
 	  <file src="src\DiscordWebHook\bin\Release\net70\DiscordWebHook.dll" target="lib\net70" />
-        <file src="src\DiscordWebHook\bin\Release\netcoreapp3.0\DiscordWebHook.dll" target="lib\netcoreapp3.0" />
-        <file src="src\DiscordWebHook\bin\Release\netcoreapp3.1\DiscordWebHook.dll" target="lib\netcoreapp3.1" />
+		<file src="src\DiscordWebHook\bin\Release\net80\DiscordWebHook.dll" target="lib\net80" />
+    <file src="src\DiscordWebHook\bin\Release\netcoreapp3.0\DiscordWebHook.dll" target="lib\netcoreapp3.0" />
+    <file src="src\DiscordWebHook\bin\Release\netcoreapp3.1\DiscordWebHook.dll" target="lib\netcoreapp3.1" />
 		<file src="icon.png" />
     <file src="README.md" />
   </files>
